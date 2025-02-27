@@ -1,0 +1,153 @@
+html,body {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url('pexels-mccutcheon-1212406.jpg');
+    background-size: cover;
+}
+
+.container {
+    margin-top: 2.5%;
+    margin-left: 10%;
+    display: flex;
+    height: 90vh;
+    width: 80vw;
+    border: 1px solid rgba(8, 8, 8, 0.2);
+    border-radius: 18px;
+    background: rgba(22, 21, 21, 0.3);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container:hover{
+    background: rgba(27, 27, 27, 0.8);
+}
+
+.box{
+    display: flex;
+
+}
+
+img {
+    padding-top:2.5vh ;
+    padding-left: 1.3vw;
+    display: inline-block;
+    width: 40vw;
+    height: 85vh;
+    border-radius:18px ;
+}
+
+.main_content{
+    padding-top:12vh ;
+    padding-left: 4vw;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+   font-size: larger;
+   font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+input[type ="email"]{
+    border: 1px rgb(170, 126, 226) solid;
+    border-radius: 8px;
+    height: 5vh;
+    width: 24vw;
+    margin: 2rem;
+    margin-top: 3.6rem;
+}
+
+input[type ="password"]{
+    border: 1px rgb(170, 126, 226) solid;
+    border-radius: 8px;
+    height: 5vh;
+    width: 24vw;
+    margin: 2rem;
+    margin-top: 0% ;
+}
+
+.forget_password {
+    color: rgb(68, 143, 240);
+    margin-left: 0%;
+    text-decoration: none;
+}
+
+.forget_password:hover{
+    color: rgb(34, 179, 231);
+    cursor: pointer;
+}
+
+.btn_sigin{
+    margin-top: 3rem;
+    width: 16vw;
+    height: 6vh;
+    color: rgb(253, 251, 251);
+    border-radius: 20px ;
+    background-color:rgba(14, 14, 14, 0.674) ;
+    border: 1px rgb(218, 219, 221) solid;
+    font-weight: 600;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 1px 1px 8px white;
+}
+
+.btn_sigin:hover{
+    border: 1px rgb(11, 11, 11)  solid;
+    background-color: rgb(238, 240, 241);
+    color: rgb(14, 14, 13) ;
+    transition: transform 0.5s ease-in;
+    transform: translateX(1px) scale(1.05);
+    box-shadow: 2px 2px 20px rgb(118, 119, 119);
+    cursor:pointer;
+}
+.google-btn {
+    margin-top: 3rem;
+    width: 18vw;
+    height: 6vh;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 25px;
+    padding: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    background-color: white;
+}
+
+.google-btn img {
+    height: 3vh;
+    width: 2vw;
+}
+
+
+
+.google-btn:hover{
+    color: white;
+    background-color: black;
+    border: black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.Sign_up {
+    margin-top: 2rem;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(168, 172, 177);
+}
+
+.Sign_up a{
+    color: rgb(68, 143, 240);
+    text-decoration: none;
+}
+
+.Sign_up a:hover{
+    color: rgb(34, 179, 231);
+    cursor: pointer;
+}
