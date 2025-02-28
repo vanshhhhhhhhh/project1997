@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.des{
+    padding: 0.8px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: rgb(88, 88, 88);
+}
+
+.box {
+    background: rgba(124, 45, 222, 0.2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 4px 10px rgba(85, 85, 85, 0.5);
+    border-radius: 8px;
+    width: 36vw;
+    height: 46vh;
+}
+
+.box:hover {
+    transition: 1.5s;
+    background: rgba(119, 46, 207, 0.4);
+}
+
+h1{
+    margin-top: 3.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+}
+
+input[type="email"] {
+    margin-top: 3rem;
+    width: 18.5vw;
+    height: 5vh;
+    border-radius: 6px;
+    font-size: large;
+    border: 1.5px solid rgb(158, 158, 158);
+}
+
+input[type="email"]:hover {
+    transition: 0.8s;
+    transform:translateY(-2px) scale(1.07);
+}
+
+.submit {
+    margin-top: 1rem;
+    text-align: center;
+    width: 18.5vw;
+    height: 6vh;
+    border-radius: 6px;
+    font-size: large;
+    letter-spacing: 0.6px;
+    border: none;
+    background-color: rgb(124, 45, 222);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.submit:hover {
+    transition: 0.8s;
+    transform:translateY(-3px) ;
+    background-color: rgb(96, 20, 189); 
+    cursor: pointer;
+}
